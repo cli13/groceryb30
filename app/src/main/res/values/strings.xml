@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Grocery</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_data">Empty Cart</string>
+    <string name="add_address">Add Address</string>
+    <string name="house_number">House Number:</string>
+    <string name="pin_code">Pin code:</string>
+    <string name="street_name">Street Name:</string>
+    <string name="type">Type:</string>
+    <string name="cancel">✖</string>
+    <string name="city">City:</string>
+</resources>

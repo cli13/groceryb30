@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar" />
+
+    <Button
+        android:id="@+id/button_add_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:drawableEnd="@drawable/ic_baseline_add_location_24"
+        android:text="@string/add_address" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/button_place_order"
+        android:layout_below="@id/button_add_address" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/text_view_empty_address"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Add an address to place an order"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_place_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        android:text="Payment Method" />
+
+</RelativeLayout>
